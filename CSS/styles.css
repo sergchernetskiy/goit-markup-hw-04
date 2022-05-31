@@ -93,8 +93,6 @@ body {
 /* ----------Navigation + Contacts + Footer---------- */
 .site-nav .link:hover,
 .site-nav .link:focus,
-.contacts .link:hover,
-.contacts .link:focus,
 .footer .link:hover,
 .footer .link:focus {
    color: var(--accent-text-color);
@@ -153,6 +151,11 @@ body {
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em;
+}
+
+.contacts-icon:hover,
+.contacts-icon:focus {
+   color: var(--accent-text-color);
 }
 
 .icon-envelope,
