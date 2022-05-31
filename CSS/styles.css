@@ -144,6 +144,7 @@ body {
 .contacts {
    display: flex;
    margin-left: auto;
+   align-items: center;
 }
 
 .contacts .link {
@@ -154,19 +155,14 @@ body {
    letter-spacing: 0.02em;
 }
 
-.contacts-icon .icon-envelope {
-   content: "";
-}
-
-.icon-envelope {
+.icon-envelope,
+.icon-smartphone {
    fill: currentColor;
+   margin-right: 10px;
 }
 
 .contacts-item:not(:last-child) {
    margin-right: 50px;
-}
-
-.contacts-item-envelope {
 }
 
 /* ----------effective solutions---------- */
@@ -174,7 +170,14 @@ body {
    padding-top: 200px;
    padding-bottom: 200px;
 
-   background-color: var(--secondary-background-one);
+   background-color: #c4c4c4;
+   background-image: linear-gradient(
+         rgba(47, 48, 58, 0.4),
+         rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/team.jpg);
+   max-width: 1600px;
+   margin: 0 auto;
 }
 
 .hero-title {
