@@ -154,8 +154,19 @@ body {
    letter-spacing: 0.02em;
 }
 
+.contacts-icon .icon-envelope {
+   content: "";
+}
+
+.icon-envelope {
+   fill: currentColor;
+}
+
 .contacts-item:not(:last-child) {
    margin-right: 50px;
+}
+
+.contacts-item-envelope {
 }
 
 /* ----------effective solutions---------- */
