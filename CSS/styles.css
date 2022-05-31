@@ -467,6 +467,10 @@ img {
 }
 
 /* ----------Footer---------- */
+.footer-contacts {
+   display: flex;
+}
+
 .footer {
    padding-top: 60px;
    padding-bottom: 60px;
@@ -506,6 +510,59 @@ img {
 .footer .mail {
    display: inline-block;
    margin-bottom: 9px;
+}
+
+.message {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.143;
+   text-transform: uppercase;
+   color: var(--contrast-text);
+}
+
+.footer-soc-list {
+   display: flex;
+   justify-content: center;
+}
+
+.footer-soc-item {
+   width: 44px;
+   height: 44px;
+   margin-right: 10px;
+}
+
+.footer-soc-item:last-child {
+   margin-right: 0;
+}
+
+.footer-soc-link {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   border-radius: 50%;
+   background-color: rgba(255, 255, 255, 0.1);
+   fill: var(--contrast-text);
+   align-items: center;
+   justify-content: center;
+}
+
+.footer-soc-icon {
+   color: var(--contrast-text);
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+   background-color: var(--accent-text-color);
+}
+
+.footer-soc-link:hover .footer-soc-icon,
+.footer-soc-link:focus .team-soc-icon {
+   fill: var(--contrast-text);
+}
+
+.footer-soc-link:focus-visible {
+   outline: 2px solid var(--accent-text-color);
+   border-radius: 4px;
 }
 
 /* ----------Portfolio---------- */
