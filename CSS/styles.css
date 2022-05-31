@@ -8,6 +8,7 @@
    --secondary-background-one: #2f303a;
    --secondary-background-two: #f5f4fa;
    --typical-padding-ident: 94px;
+   --icons-color: #afb1b8;
 }
 
 h1,
@@ -379,11 +380,11 @@ img {
 }
 
 .team-soc-link {
-   width: 44px;
-   height: 44px;
+   width: 100%;
+   height: 100%;
    display: flex;
-   fill: #afb1b8;
    border-radius: 50%;
+   fill: var(--icons-color);
    align-items: center;
    justify-content: center;
 }
@@ -392,9 +393,13 @@ img {
    color: var(--contrast-text);
 }
 
+.team-soc-link:hover,
+.team-soc-link:focus {
+   background-color: var(--accent-text-color);
+}
+
 .team-soc-link:hover .team-soc-icon,
 .team-soc-link:focus .team-soc-icon {
-   background-color: var(--accent-text-color);
    fill: var(--contrast-text);
 }
 
