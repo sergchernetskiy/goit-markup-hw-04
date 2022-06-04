@@ -453,8 +453,8 @@ img {
    fill: var(--icons-color);
 }
 
-.clients-item:hover .clients-link,
-.clients-item:focus .clients-link {
+.clients-item:hover,
+.clients-item:focus {
    border: 1px solid var(--accent-text-color);
    border-radius: 4px;
 }
